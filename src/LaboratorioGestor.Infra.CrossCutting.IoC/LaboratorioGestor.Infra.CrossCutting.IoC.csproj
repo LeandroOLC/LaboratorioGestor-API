@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LaboratorioGestor.Domain.Core\LaboratorioGestor.Domain.Core.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Domain\LaboratorioGestor.Domain.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.CrossCutting.AspNetFilters\LaboratorioGestor.Infra.CrossCutting.AspNetFilters.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.CrossCutting.Identity\LaboratorioGestor.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.Data\LaboratorioGestor.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LaboratorioGestor.Domain\LaboratorioGestor.Domain.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.CrossCutting.AspNetFilters\LaboratorioGestor.Infra.CrossCutting.AspNetFilters.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.CrossCutting.Identity\LaboratorioGestor.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.CrossCutting.IoC\LaboratorioGestor.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\LaboratorioGestor.Infra.Data\LaboratorioGestor.Infra.Data.csproj" />
+  </ItemGroup>
+
+
+</Project>
